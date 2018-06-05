@@ -4,7 +4,7 @@ $(call inherit-product, device/motorola/titan/full_titan.mk)
 $(call inherit-product, vendor/aosp/common.mk)
 
 TARGET_BOOT_ANIMATION_RES := 720
-EXTENDED_BUILD_TYPE := OFFICIAL
+EXTENDED_BUILD_TYPE := UNOFFICIAL
 
 PRODUCT_RELEASE_NAME := titan
 PRODUCT_NAME := aosp_titan
